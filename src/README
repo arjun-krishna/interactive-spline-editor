@@ -1,0 +1,9 @@
+Functionality
+- insert
+- delete
+- arbitrarily drag points
+- cursor modifications - pygame.mouse.set_system_cursor()
+- implement interpolators
+
+TODO
+- load simple sprite and start animation
