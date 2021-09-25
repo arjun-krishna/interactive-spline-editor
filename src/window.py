@@ -17,7 +17,7 @@ class AppWindow:
         self.window = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
         self.world = World(COMMANDS_WIDTH, WINDOW_WIDTH, WINDOW_HEIGHT, GRID_SIZE, CLOSENESS_PX)
         # attributes
-        pygame.display.set_caption("Interactive Splines")
+        pygame.display.set_caption("Interactive Spline Editor")
         pygame.font.init()
         self.window.fill(WINDOW_BACKGROUND)
         
@@ -48,6 +48,9 @@ class AppWindow:
                 self.delete_mode = False
                 self.animation_mode = False
                 self.animation_loop = False
+                self.world.object_pos = [-1, -1]
+                self.world.t = 0
+                self.world.dt = 1
             if event.key == K_ESCAPE:
                 self.insert_mode = False
                 self.delete_mode = False
