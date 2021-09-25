@@ -51,4 +51,8 @@ _Note_: Currently interpolater selection does not have GUI clickable button.
 4. Movement of control points supported during animation of sphere on the interpolated path.
 
 
-*Checkout the Demo!* - demo/Interactive_Spline_Editor_Demo.mp4
+*Checkout the Demo!* 
+
+<video src='demo/Interactive_Spline_Editor_Demo.mp4?raw=true' width="400"></video>
+
+PS: Code is not optimal in any way! It was hacked together in about 4-5 hours.
