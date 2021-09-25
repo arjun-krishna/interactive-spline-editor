@@ -53,6 +53,6 @@ _Note_: Currently interpolater selection does not have GUI clickable button.
 
 *Checkout the Demo!* 
 
-<video src='demo/Interactive_Spline_Editor_Demo.mp4?raw=true' width="400"></video>
+https://user-images.githubusercontent.com/12149046/134757415-05e38f49-b86a-4e93-ac72-873349681449.mp4
 
 PS: Code is not optimal in any way! It was hacked together in about 4-5 hours.
